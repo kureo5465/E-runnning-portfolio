@@ -1,0 +1,54 @@
+//全体スタイル
+html {
+    font-size: 62.5%;
+}
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 12rem;
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+.section-finished {
+    text-decoration: line-through;
+}
+
+button[type="submit"]:disabled {
+    background: rgb(240, 21, 39);
+}
+
+.message {
+    background-color: rgb(106, 238, 102);
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+  
+//全体フォント
+$hiragino: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+"游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
+"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$Bad :'Bad Script', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap');
+
+//全体カラー
+$headercolor: #dfcaca;
+$sessontitle: 'Fira Sans Condensed', sans-serif;
+
+//PCサイズ
+@import './base';
+@import './form_style';
+@import './480up';

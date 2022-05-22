@@ -1,0 +1,86 @@
+@media screen and (max-width: 480px) {
+  .mb_ml_m {
+    margin-bottom: 2rem;
+  }
+  
+  .mb_m_m {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mb_s_m {
+    margin-bottom: 0.5rem;
+  }
+
+  .header {
+    &_title {
+      font-family: $Bad;
+      font-size: 1.6rem;
+    }
+  }
+
+  .main {
+
+    &_title_container {
+      display: block;
+    }
+
+    &_course_sub_title {
+      margin-bottom: 3rem;
+    }
+
+
+    .course {
+      flex-wrap: wrap;
+      @extend .mb_ml_m;
+  
+      &_block {
+        flex: 0 0 calc(100%/2 - 1rem);
+        @extend .mb_m_m;
+      }
+  
+      &_img {
+        @extend .mb_ml_m;
+      }
+  
+      &_title {
+        @extend .mb_s_m;
+      }
+  
+      &_sub_title {
+        @extend .mb_s_m;
+        font-size: 1.3rem;
+      }
+  
+      &_button {
+        padding: 1rem 1rem;
+        text-align: center;
+      }
+  
+    }
+
+
+    .session {
+      &_container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+      }
+
+      &_title {
+        font-size: 1.4rem;
+      }
+  }
+
+    .finish_button {
+      padding: 1rem 1rem;
+      font-size: 1.5rem;
+  }
+}
+
+.history_title {
+  font-size: 2rem;
+}
+
+.history_learning {
+  font-size: 1.3em;
+}
+}
